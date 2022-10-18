@@ -1,0 +1,30 @@
+.ActionButton{
+    background: transparent;
+    padding: 7px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+
+.ActionButton:hover{
+    color:white;
+    background-color: black;
+}
+
+.ActionButton.red{
+    color:red;
+    border: 1px solid red;
+}
+.ActionButton.red:hover{
+    color:white;
+    background-color: red;
+}
+
+.ActionButton.green{
+    color:green;
+    border: 1px solid green;
+}
+.ActionButton.green:hover{
+    color:white;
+    background-color: green;
+}

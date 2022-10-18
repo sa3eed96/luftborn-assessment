@@ -1,0 +1,32 @@
+
+  .customToastHead {
+    border: 0 !important;
+    padding: 0 !important;
+    color: black !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .customToastHead .text {
+    margin-inline-end: 15px;
+  }
+  
+  .customToastHead button {
+    background-color: transparent;
+    border: 0;
+    align-self: flex-start;
+  }
+  
+  .errorToast {
+    border: 1px solid red;
+    border-radius: 3px;
+  }
+  
+  .defaultToast {
+    border: 1px solid gray;
+    border-radius: 3px;
+  }
+  

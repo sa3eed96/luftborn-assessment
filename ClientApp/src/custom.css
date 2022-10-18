@@ -1,0 +1,17 @@
+/* Provide sufficient contrast against white background */
+html, body,#root{
+  height: 100%;
+  overflow-y: hidden;
+}
+
+
+@media(max-width:576px){
+  html, body,#root{
+  overflow-y: auto;
+
+  }
+}
+
+:root {
+  --toastify-toast-width: 420px !important;
+}

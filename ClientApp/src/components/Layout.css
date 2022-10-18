@@ -1,0 +1,9 @@
+.layout{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.mainContainer{
+    padding:0 2vw;
+    flex-grow: 1;
+}

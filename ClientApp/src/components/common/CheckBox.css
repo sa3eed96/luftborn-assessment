@@ -1,0 +1,63 @@
+
+.customCheckBox {
+    display: block;
+    width: 27px;
+    height: 27px;
+    background-color: white;
+    position: relative;
+    border: 1px solid #b7b7b7;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  .customCheckBox:hover {
+    background-color: #b7b7b7;
+  }
+  .customCheckBox.checked {
+    background-color: #15cd72;
+    border: 1px solid #0fc169;
+  }
+  .customCheckBox.disabled {
+    background-color: #b7b7b7;
+    cursor: not-allowed;
+  }
+  
+  .customCheckBox:after {
+    content: "";
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.2s linear;
+  }
+  
+  /* Show the checkmark when checked */
+  .customCheckBox.checked:after {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* Style the checkmark/indicator */
+  .customCheckBox:after {
+    left: 10px;
+    top: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  .customCheckBox.inter:after {
+    left: 10px;
+    top: 4px;
+    width: 6px;
+    height: 14px;
+    border: solid white;
+    border-width: 0 3px 0 0;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  

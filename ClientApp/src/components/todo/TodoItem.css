@@ -1,0 +1,36 @@
+.todoItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:0.5vw;
+    padding:1.5vw 0;
+    border-bottom: 1px dashed lightgray;
+}
+
+.todoItem .todoItemContent{
+    display: flex;
+    align-items: center;
+    gap:1vw;
+    flex-grow: 1;
+}
+
+.todoItem .todoItemControls{
+    display: flex;
+    align-items: center;
+    gap:3px;
+}
+
+@media(max-width:576px){
+    .todoItem{
+       flex-direction: column;
+    gap:10px;
+    text-align: center;
+    padding:10px 0;
+
+    }
+    .todoItem .todoItemContent{
+        flex-direction: column;
+    gap:10px;
+
+    }
+}

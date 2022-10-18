@@ -1,0 +1,36 @@
+.topBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1vh 0 1vh 0;
+    margin-bottom: 2.7vh;
+    box-shadow: 0 1px 5px #888888;
+}
+
+.topBar .logoCont{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-end;
+}
+
+.topBar .btnCont{
+    margin-inline-end: 10px;
+}
+
+.topBar .btnCont a{
+    color:unset;
+    text-decoration: none;
+}
+
+.topBar .logo{
+    width:3vw;
+}
+
+
+
+
+@media(max-width: 992px) {
+    .topBar .logo{
+        width:50px;
+    }
+}

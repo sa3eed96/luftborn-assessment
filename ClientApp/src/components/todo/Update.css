@@ -1,0 +1,108 @@
+.update {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.update .card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 95%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4.629629vh 0;
+}
+.update .card h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 7.3vh;
+    color: #23201e;
+    margin:0 0 4.6296vh;
+}
+.update .card form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+.update .card form .inputs label.label {
+    font-size: 16px;
+    color: #23201e;
+    margin-bottom: 9px;
+  }
+.update .card form .inputs{
+    width: 100%;
+}
+.update .card form .inputs textarea {
+    font-size: 16px;
+    padding: 1.3888889vh 16px;
+    font-weight: 500;
+    border: 2px solid #bdbab8;
+    border-radius: 2px;
+    margin-bottom: 8px;
+    width: 100%;
+    height: 18.518518vh;
+    background-color: #ffffff;
+    transition: all 0.5s ease;
+    resize: none;
+}
+
+.update .card form .inputs textarea::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .update .card form .inputs textarea::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  /* Handle */
+  .update .card form .inputs textarea::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  .update .card form .inputs textarea::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    cursor: pointer;
+  }
+
+.update .card form .inputs textarea:focus {
+    outline: none;
+    border-color: #171717;
+    background-color: #e8f0fe;
+}
+
+.update .card form .inputs .inputControl {
+    margin: 3.7037037vh 0 0;
+}
+
+.update .card form .btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px
+}
+.update .card form .btns button:last-child {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.update .card form .btns button:last-child a {
+    color: #e92121;
+    font-size: 14px;
+    font-weight: 500;
+}
+.update .card form .btns button:last-child a:hover {
+    text-decoration: underline;
+}
+.update .card form .btns .submitButton {
+    margin-top: 5.481481vh;
+}

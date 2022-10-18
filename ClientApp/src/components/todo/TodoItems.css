@@ -1,0 +1,14 @@
+.todoItemsContainer{
+    overflow-y: auto;
+    flex-grow: 1;
+    padding-right: 10px;
+}
+
+.todoItemsPaging{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+    padding:1vw 0;
+    gap: 10px;
+}
